@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 function UserDetails() {
   const [userDetail, setUserDetail] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const { id } = useParams();
   useEffect(() => {
     setIsLoading(true);
