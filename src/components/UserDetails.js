@@ -19,7 +19,7 @@ function UserDetails() {
     <div>
       <h1>User Details</h1>
       <p>Name: {userDetail.name}</p>
-      <p>UserName: {userDetail.username}</p>
+      <p>Username: {userDetail.username}</p>
       <p>Email: {userDetail.email}</p>
       <p>Phone: {userDetail.phone}</p>
       <p>Website: {userDetail.website}</p>
