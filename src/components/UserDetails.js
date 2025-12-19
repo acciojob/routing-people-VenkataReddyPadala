@@ -15,6 +15,7 @@ function UserDetails() {
   }, []);
 
   if (isLoading) return <div>Loading...</div>;
+  if (!userDetail) return <div>Loading...</div>;
   return (
     <div>
       <h1>User Details</h1>
